@@ -32,7 +32,7 @@ const Home = () => {
         setIsPending(false);
                 }, 500);
                
-            }, [planets]);
+            }, []);
 
 
     return (
