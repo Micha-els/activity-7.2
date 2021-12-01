@@ -1,13 +1,84 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.content {
+  margin: 20px;
+  padding: 20px; 
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-img, .card-img-bottom, .card-img-top {
+  width: 75%!important;
+}
+
+.card {
+  padding: 10px;
+  margin: 20px, 0;
+  border-bottom: 1px solid #fafafa;
+}
+.card a {
+  text-decoration: none;
+}
+.card:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.card .card-title{
+  color: red;
+}
+.navtab .links a{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.navtab .links a:hover{
+  transform: scale(1.2);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.create {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.create label{
+  display: block;
+  text-align: left;
+}
+.create div{
+  display: block;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.create input, .create textarea {
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  display: block;
+  box-sizing: border-box;
+}
+.create button {
+  background: brown;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.circles {
+  position:fixed;
+  bottom: 6%;
+  right: 7%;
+}
+.sidebar {
+  width: 70%;
+}
+.sidebar p, .sidebar h6 {
+  font-size: 70%;
 }
