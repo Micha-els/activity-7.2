@@ -29,7 +29,7 @@ const Home = () => {
             {image: "/characters/character-5.png", id: 5, name: "Jenny Wilson", friends: "23", description: "is a really nice person."},
             {image: "/characters/character-6.png", id: 6, name: "Malvin Mckinney", friends: "23", description: "is a really nice person."}
         ]);
-        setIsPending(false);
+        setIsPending(false)
                 }, 500);
                
             }, []);

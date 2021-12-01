@@ -5,7 +5,7 @@ import NavBar from './NavBar';
 import CharactersPage from './CharactersPage';
 import Home from './Home';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-// import NotFound from './NotFound';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
               <Route path="/CharactersPage">
                 <CharactersPage/>
               </Route>
-              {/* <Route path="*">
+              <Route path="*">
                 <NotFound/>
-              </Route> */}
+              </Route>
             </Switch>
           </Container>
         </div>
