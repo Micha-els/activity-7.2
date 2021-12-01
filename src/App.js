@@ -21,9 +21,9 @@ function App() {
               <Route path="/CharactersPage">
                 <CharactersPage/>
               </Route>
-              <Route path="*">
+              {/* <Route path="*">
                 <NotFound/>
-              </Route>
+              </Route> */}
             </Switch>
           </Container>
         </div>
