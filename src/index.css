@@ -15,7 +15,7 @@
 }
 
 .card-img, .card-img-bottom, .card-img-top {
-  width: 75%!important;
+  width: 55%!important;
 }
 
 .card {
@@ -81,4 +81,7 @@
 }
 .sidebar p, .sidebar h6 {
   font-size: 70%;
+}
+.plan-img{
+  width: 25%;
 }

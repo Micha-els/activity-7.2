@@ -102,7 +102,7 @@ const PlanetList = ({planets, characters}) => {
                         <Col>
                                 <Card className="text-black">
                                     <div className="d-lg-flex align-items-center ">
-                                        <Card.Img className="h-25 w-50 " variant="top" src={process.env.PUBLIC_URL+`${character.image}`} />
+                                        <Card.Img className="h-25" variant="top" src={process.env.PUBLIC_URL+`${character.image}`} />
                                         <div className="ps-3">
                                             <p className="p-0, m-0 fw-bold">{character.name} </p>
                                             <p>{character.friends} friends</p>
