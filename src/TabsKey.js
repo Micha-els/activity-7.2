@@ -14,10 +14,7 @@ const TabsKey = () => {
                 </Nav.Item>
             </Nav>
         </div>
-       
-        
-
     )
 }
 
-export default TabsKey
+export default TabsKey;

@@ -32,13 +32,13 @@ const Home = () => {
         setIsPending(false)
                 }, 500);
                
-            }, []);
+            }, [isPending]);
 
 
     return (
-        <div className="home">
+        <div className="/">
             {isPending && <LoadPage/>}
-            {planets && <TabsKey/> }
+            {planets && <TabsKey/>}
             {planets && <PlanetList planets={planets} characters={characters} />}
         </div>
     )

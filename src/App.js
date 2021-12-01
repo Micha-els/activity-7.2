@@ -15,13 +15,13 @@ function App() {
           <Container bg="light">
             <NavBar/>
             <Switch>
-              <Route exact path="/">
-                <Home/>
-              </Route>
               <Route path="/CharactersPage">
                 <CharactersPage/>
               </Route>
-              <Route path="*">
+              <Route exact path="*">
+                <Home />
+              </Route>
+              <Route path="/not-found">
                 <NotFound/>
               </Route>
             </Switch>
